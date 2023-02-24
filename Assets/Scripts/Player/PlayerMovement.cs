@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float gravity = -9.81f;
     [SerializeField] private float gravityModifier;
-;    private CapsuleCollider2D _cc;
+    private CapsuleCollider2D _cc;
 
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _jumpForce = 10;
